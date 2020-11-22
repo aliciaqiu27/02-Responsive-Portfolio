@@ -1,0 +1,18 @@
+.img {
+    max-width:100%;
+}
+
+.container {
+    background-color: lightblue;
+}
+
+.navbar-brand {
+    padding: 20px;
+    font-size: 30px;
+    color: pink;
+}
+
+.nav-link {
+    display: inline-block;
+    margin: auto;
+}
