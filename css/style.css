@@ -1,18 +1,65 @@
-.img {
-    max-width:100%;
-}
-
 .container {
-    background-color: lightblue;
+background-color: lightblue;
 }
 
 .navbar-brand {
-    padding: 20px;
+    padding: 10px;
     font-size: 30px;
-    color: pink;
+    font-family: 'Lobster', cursive;
+    color: rgb(0, 65, 51);
+}
+
+
+@media screen and (max-width: 991px) {
+  .nav-link {
+    display: none;
+  }
+  .dropdown {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (min-width: 991px) {
+  .dropdown {
+    display: none;
+  }
+  .nav-link {
+    float: right;
+    display: block;
+  }
+}
+
+.img-fluid {
+    display: block;
+    width: 200px;
+    max-width: 100%;
+    margin-bottom: 10px;
+    }
+
+.image {
+    width: 450px;
+    max-width: 100%;
 }
 
 .nav-link {
-    display: inline-block;
-    margin: auto;
+    padding: 10px;
+    font-family: 'Lobster', cursive;
+    color: gray;
+    font-size: 20px;
 }
+
+.header {
+    font-family: 'Calistoga', cursive;
+    font-size: 30px;
+}
+
+.jumbotron {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.media-body {
+    word-break:break-all;
+}
+
